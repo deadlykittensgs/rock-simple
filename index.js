@@ -63,7 +63,6 @@ else {
 
 
 function playGame(userChoice,) {
-
     let userWins = 0
     let comWins = 0
     comChoice = getComputersChoice()
@@ -87,7 +86,7 @@ function playGame(userChoice,) {
 }
 
 
-function count(userChoice, comChoice) {
+function count(result) {
 
     if (result === "user") {
         return userWins++
